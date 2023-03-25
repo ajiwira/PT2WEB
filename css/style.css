@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: goldenrod;
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+header img{
+    width: 75px;
+}
+header h1 {
+    position: absolute;
+    top: 30px;
+    left: 125px;
+}
+
+nav {
+    background-color: burlywood;
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    
+}
+a {
+    color: white;
+    padding: 14px;
+    list-style: none; 
+    display: inline;
+    text-decoration: none;
+}
+a:hover{
+    background: #4da4ff; color: #fff;
+}
+
+.Isi {
+    position: absolute;
+    top: 170px;
+    left: 400px;
+}
+
+.desc p {
+    position: absolute;
+    width: 500;
+    text-align: center;
+    top: 270px;
+    padding-left: 10px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.desc a{
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    color: black;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+footer {
+    color: black;
+    background-color: goldenrod;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.badan
+{
+    width: 800px;
+    margin: 35px auto;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+   
+}
+ 
+.badan h2
+{
+    color: crimson;
+    border-bottom: 1px solid gainsboro;
+    margin: 5px;
+    margin-bottom: 13px;
+}
+ 
+.list-produk
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 350px;
+    margin: 5px;
+}
+ 
+.list-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+ 
+.list-produk img
+{
+    width: 300px;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.list-produk h4, .list-produk h5
+{
+    color: crimson;
+    text-align: center;
+    margin-bottom: 5px;
+}
+ 
+.tombol
+{
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 7px;
+    display: block;
+    float: center;
+    width: 45%;
+    margin: 85px;
+    text-align: center;
+    color: white;
+    left: 70px;
+}
+ 
+.tombol:hover
+{
+    background-color: black;
+    transition-duration: 700ms;
+}
+ 
+.tombol-detail
+{
+    background-color: green;
+}

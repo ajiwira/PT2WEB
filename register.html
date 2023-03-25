@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Document</title>
+    <style>
+		body {
+			background-image: url("/img/bgjln.jpg");
+			background-size: cover;
+		}
+	</style>
+</head>
+<body>
+    <div class ="ktk"></div>
+    <div class ="ktk1"></div>
+    <img src="img/logo.png" alt="">
+    <form id="register-form">
+        <label for="name">Nama:</label><br>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="gender">Jenis Kelamin:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Laki-laki</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Perempuan</label>
+        <br>
+        <label for="country">Negara:</label><br>
+        <select id="country" name="country" required>
+          <option value="" disabled selected>Pilih Negara</option>
+          <option value="id">Indonesia</option>
+          <option value="my">Malaysia</option>
+          <option value="sg">Singapura</option>
+        </select>
+        <br> 
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">Saya menyetujui semua persyaratan.</label>
+  
+        <button type="submit">Register</button>
+      </form>
+	
+
+   
+    
+</body>
+<script src="/js/reg.js"></script>
+
+</html>
